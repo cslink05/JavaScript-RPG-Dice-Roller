@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dice Roller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    
+</head>
+<body>
+    <h1>RPG Dice Roller</h1>
+    <div class="container">
+        
+    <div class="dice-flex">
+
+    
+    <div class="dice">
+        <input id="d4amount" type="number" min="1" max="10" value="1">
+        <h3>d4</h3>
+        <button id="d4button">Roll Dice</button>
+    </div>
+    <div class="dice">
+        <input id="d6amount" type="number" min="1" max="10" value="1">
+        <h3>d6</h3>
+        <button id="d6button">Roll Dice</button>
+    </div>
+    <div class="dice">
+        <input id="d8amount" type="number" min="1" max="10" value="1">
+        <h3>d8</h3>
+        <button id="d8button">Roll Dice</button>
+    </div>
+    <div class="dice">
+        <input id="d10amount" type="number" min="1" max="10" value="1">
+        <h3>d10</h3>
+        <button id="d10button">Roll Dice</button>
+    </div>
+    <div class="dice">
+        <input id="d12amount" type="number" min="1" max="10" value="1">
+        <h3>d12</h3>
+        <button id="d12button">Roll Dice</button>
+    </div>
+    <div class="dice">
+        <input id="d20amount" type="number" min="1" max="10" value="1">
+        <h3>d20</h3>
+        <button id="d20button">Roll Dice</button>
+    </div>
+    <div class="dice">
+        <input id="d100amount" type="number" min="1" max="10" value="1">
+        <h3>d100</h3>
+        <button id="d100button">Roll Dice</button>
+    </div>
+    </div>
+    <div class="result-flex">
+       <div id="result-box">
+        <p id="dice-results"></p>
+        </div>
+        <button id="clear-results">Clear</button> 
+    </div>
+    
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

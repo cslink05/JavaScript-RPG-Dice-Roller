@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.dice {
+    display: flex;
+    height: 40px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+ input {
+     width: 40px;
+ }
+
+h3 {
+    margin: 0 20px;
+}
+h1 {
+    text-align: center;
+}
+
+#result-box {
+    width: 180px;
+    height: 300px;
+    border: 1px solid black;
+}
